@@ -1,0 +1,311 @@
+.container-input {
+    position: relative;
+}
+
+.input {
+    width: 150px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px #333;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+}
+
+.container-input svg {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translate(0, -50%);
+    margin-top: 12px;
+}
+
+.input:focus {
+    opacity: 1;
+    width: 250px;
+}
+.nav-item a {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 30px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.carousel-item img {
+    width: 200px;
+    height: 250px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.container-input input {
+    margin-top: 30px;
+    margin-right: -25px;
+}
+.container-input {
+    margin-right: -5px;
+    margin-left: 20px;
+}
+.nav-item-barang a {
+    font-size: medium;
+    font-family: sans-serif;
+    margin-right: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: rgb(49, 49, 49);
+    display: inline-block;
+    place-items: center;
+}
+.image img {
+    width: 220px;
+    height: 243px;
+}
+.deskripsi p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent {
+    display: grid;
+    place-items: center;
+}
+.deskripsi button {
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    width: 113px;
+    height: 39px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    margin: 2rem 0;
+}
+.parents {
+    display: grid;
+    place-items: center;
+}
+.judul-post h5 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.harga-produk h5 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.content button {
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    width: 113px;
+    height: 39px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    margin: 2rem 0;
+}
+.content img {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 500px;
+    height: 100px;
+    width: 100px;
+}
+.judul h2 {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #fff;
+    text-align: justify;
+    margin-left: 50px;
+}
+.judul-tshirt h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+/* card tshirt */
+.Tshirt .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.Tshirt .card img {
+    width: 208px;
+    height: 185px;
+}
+.Tshirt .card h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Tshirt .card p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+/* end card tshirt */
+
+/* card celana */
+.celana .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    height: 261px;
+    width: 214px;
+}
+.celana .card img {
+    width: 208px;
+    height: 185px;
+}
+.celana .card h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.celana .card p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+/* end card celana */
+
+/* card kacamata */
+.judul-kacamata h2 {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 20px;
+}
+.kacamata .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.kacamata .card img {
+    width: 208px;
+    height: 185px;
+}
+.kacamata .card h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.kacamata .card p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+/* end card kacamata */
+
+/* card topi */
+.judul-topi h2 {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.topi .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.topi .card img {
+    width: 208px;
+    height: 185px;
+}
+.topi .card h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.topi .card p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+/* end card topi */
+
+/* card apparel discount */
+.apparel .card img {
+    height: 156px;
+    width: 200px;
+    justify-items: center;
+}
+.apparel .card {
+    height: 256px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.apparel .card-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.apparel .card-text {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+    margin-top: 10px;
+}
+/* end card */
+.footer {
+    background-color: #282626;
+    height: 300px;
+}
+.footer h3 {
+    text-align: center;
+}
+.logo-perusahaan img {
+    width: 250px;
+    height: 250px;
+}
+.footer-down {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 88px;
+}
+.judul h3 {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}

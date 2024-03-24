@@ -1,0 +1,339 @@
+/* navbar */
+/* .container-input {
+    position: relative;
+}
+
+.input {
+    width: 150px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px #333;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+}
+
+.container-input svg {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translate(0, -50%);
+    margin-top: 12px;
+}
+
+.input:focus {
+    opacity: 1;
+    width: 250px;
+} */
+.container-input {
+    width: 220px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: calc(50% + 5px);
+    transform: translateY(calc(-50% - 5px));
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    transition: 0.2s linear;
+    border: 2.5px solid black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input:focus {
+    outline: none;
+    border: 0.5px solid black;
+    box-shadow: -5px -5px 0px black;
+}
+
+.input-container:hover > .icon {
+    animation: anim 1s linear infinite;
+}
+
+@keyframes anim {
+    0%,
+    100% {
+        transform: translateY(calc(-50% - 5px)) scale(1);
+    }
+
+    50% {
+        transform: translateY(calc(-50% - 5px)) scale(1.1);
+    }
+}
+
+.nav-item a {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.carousel-item img {
+    width: 200px;
+    height: 250px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.container-input input {
+    margin-top: 30px;
+    margin-right: -25px;
+}
+.container-input {
+    margin-right: -5px;
+    margin-left: 20px;
+}
+.nav-item-barang a {
+    font-size: medium;
+    font-family: sans-serif;
+    margin-right: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: rgb(49, 49, 49);
+    display: inline-block;
+    place-items: center;
+}
+.image img {
+    width: 220px;
+    height: 243px;
+}
+.deskripsi p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent {
+    display: grid;
+    place-items: center;
+}
+.deskripsi button {
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    width: 113px;
+    height: 39px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    margin: 2rem 0;
+}
+.parents {
+    display: grid;
+    place-items: center;
+}
+.judul-post h5 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.harga-produk h5 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.content button {
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    width: 113px;
+    height: 39px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    margin: 2rem 0;
+}
+/* end navbar */
+
+/* hot product trousers */
+.judul-diskon h2 {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: white;
+}
+.hot-product .card {
+    width: 210px;
+    height: 280px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.hot-product .card img {
+    height: 148px;
+    width: 168px;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+}
+.hot-product .card-text {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+    margin-top: 5px;
+    text-align: center;
+}
+.hot-product .card-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+/* end hot product */
+
+/* chino */
+.judul-makmin h2 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+.makmin .card-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.makmin .card-text {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+    margin-top: 10px;
+}
+.makmin .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 208px;
+    height: 184px;
+    margin-left: 30px;
+}
+/* end chino */
+/*  makanan*/
+.judul-makanan h2 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+.makanan .card img {
+    width: 208px;
+    height: 184px;
+}
+.makanan .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 208px;
+    height: 184px;
+    margin-left: 30px;
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+.makanan .card-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.makanan .card-text {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+    margin-top: 10px;
+}
+
+/* end makanan */
+
+/* minuman */
+.judul-minuman h2 {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+.minuman .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 208px;
+    height: 184px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.minuman .card-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.minuman .card-text {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+    margin-top: 10px;
+}
+
+/* end cargo */
+/* footer */
+.footer {
+    background-color: #282626;
+    height: 300px;
+    margin-top: 180px;
+}
+.footer h3 {
+    text-align: center;
+}
+.logo-perusahaan img {
+    width: 250px;
+    height: 250px;
+}
+.footer-down {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 88px;
+}
+/* footer */

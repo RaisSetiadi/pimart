@@ -1,0 +1,767 @@
+.container-input {
+    width: 220px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: calc(50% + 5px);
+    transform: translateY(calc(-50% - 5px));
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    transition: 0.2s linear;
+    border: 2.5px solid black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input:focus {
+    outline: none;
+    border: 0.5px solid black;
+    box-shadow: -5px -5px 0px black;
+}
+
+.input-container:hover > .icon {
+    animation: anim 1s linear infinite;
+}
+
+@keyframes anim {
+    0%,
+    100% {
+        transform: translateY(calc(-50% - 5px)) scale(1);
+    }
+
+    50% {
+        transform: translateY(calc(-50% - 5px)) scale(1.1);
+    }
+}
+
+.nav-item a {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.carousel-item img {
+    width: 200px;
+    height: 250px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.container-input input {
+    margin-top: 30px;
+    margin-right: -25px;
+}
+.container-input {
+    margin-right: -5px;
+    margin-left: 20px;
+}
+.nav-item-barang a {
+    font-size: medium;
+    font-family: sans-serif;
+    margin-right: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: rgb(49, 49, 49);
+    display: inline-block;
+    place-items: center;
+}
+.image img {
+    width: 220px;
+    height: 243px;
+}
+.deskripsi p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent {
+    display: grid;
+    place-items: center;
+}
+.deskripsi button {
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    width: 113px;
+    height: 39px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    margin: 2rem 0;
+}
+.parents {
+    display: grid;
+    place-items: center;
+}
+.judul-post h5 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.harga-produk h5 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.content button {
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    width: 113px;
+    height: 39px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    margin: 2rem 0;
+}
+/* card sneakers */
+.judul-sneakers h5 {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.sneakers .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+    margin-bottom: 80px;
+}
+.sneakers .card img {
+    width: 208px;
+    height: 185px;
+}
+.sneakers .button {
+    margin-top: 10px;
+    margin-right: 55px;
+    margin-left: 55px;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid #ff1e00;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #ff1e00;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.sneakers .card button:hover {
+    background: #f5f7f8;
+    box-shadow: 0 0 30px 5px #ff1e00;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.sneakers .card button:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+}
+
+.sneakers .card button::before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #e8f9fd;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+.sneakers .card button:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.sneakers .card a {
+    text-decoration: none;
+}
+.sneakers .card p {
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sneakers .card h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* .container1.card {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background: #333;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+} */
+.container .content h3 {
+    margin-top: 200px;
+}
+/* end card sneakersss */
+.content img {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 500px;
+    height: 100px;
+    width: 100px;
+}
+
+/* Card makanan */
+.judul-makanan {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.makanan .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.makanan h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.makanan p {
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.makanan .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.makanan h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.makanan p {
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* end card makanan */
+
+/* card diskon */
+.judul-diskon h2 {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: white;
+}
+.hot-product .card {
+    width: 210px;
+    height: 280px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.hot-product .card img {
+    height: 148px;
+    width: 168px;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+}
+.hot-product .card-text {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+    margin-top: 5px;
+    text-align: center;
+}
+.hot-product .card-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+/* end hot product */
+
+/* Card Minuman */
+.judul-minuman {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.minuman .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.minuman .card img {
+    width: 208px;
+    height: 185px;
+}
+.minuman h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.minuman p {
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* end card minuman */
+
+/* card untuk barang bekas  */
+.judul-barangbekas h5 {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.barangbekas .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.barangebkas h5 {
+    text-align: right;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-seri;
+}
+.barangbekas p {
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+.barangbekas .card img {
+    width: 208px;
+    height: 185px;
+}
+/* end card barang bekas */
+
+/* card pakaian */
+/* Card makanan */
+.pakaian .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.pakaian .card img {
+    width: 208px;
+    height: 185px;
+}
+.pakaian h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-seri;
+}
+.pakaian p {
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* end pakaian */
+/* card tshirt untuk di halaman pakaian */
+.judul-tshirt h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+.Tshirt .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.Tshirt .card img {
+    width: 208px;
+    height: 185px;
+}
+.Tshirt .card h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Tshirt .card p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+/* end card tshirt */
+/* card celana */
+
+.judul-celana h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+.celana .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    height: 261px;
+    width: 214px;
+}
+.celana .card img {
+    width: 208px;
+    height: 185px;
+}
+.celana .card h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.celana .card p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+/* end card celana */
+
+/* card kacamata */
+.judul-kacamata h2 {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 20px;
+}
+.kacamata .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.kacamata .card img {
+    width: 208px;
+    height: 185px;
+}
+.kacamata .card h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.kacamata .card p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+/* end card kacamata */
+
+/* card topi */
+.judul-topi h2 {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.topi .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.topi .card img {
+    width: 208px;
+    height: 185px;
+}
+.topi .card h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.topi .card p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+/* end card topi */
+/* card elektronik */
+.judul-elektronik h2 {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.elektronik .card-title {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.elektronik .card-text {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+.elektronik .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.elektronik .card img {
+    width: 208px;
+    height: 185px;
+}
+/* end card elektronik */
+
+/* card olahraga */
+.judul-olahraga h2 {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.olahraga .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.olahraga .card-title {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.olahraga .card-text {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+.olahraga .card img {
+    width: 208px;
+    height: 185px;
+}
+/* end card olahraga */
+/* card olahraga */
+.judul-otomotif h2 {
+    font-size: 32px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.otomotif .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    width: 214px;
+    height: 261px;
+}
+.otomotif .card-title {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.otomotif .card-text {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #2fa860;
+}
+.otomotif .card img {
+    width: 208px;
+    height: 185px;
+}
+/* end card otomotif */
+
+/* detail produk  */
+.detail-produk img {
+    width: 434px;
+    height: 361px;
+}
+.keterangan h4 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.note h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.description h4 {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.deskripsi p {
+    margin-top: 50px;
+}
+.detail .card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+}
+/* Mengubah warna panah ke hitam */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+    border-color: black;
+}
+/* Kustomisasi gaya produk */
+#products {
+    margin-bottom: 20px;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Kustomisasi gaya tanda panah */
+/* Kustomisasi gaya tombol */
+#viewMoreBtn {
+    padding: 8px;
+    background-color: #24cc24;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Flexbox untuk mengatur tombol di tengah secara horizontal */
+#viewMoreBtnWrapper {
+    display: flex;
+    justify-content: center; /* Mengatur tombol di tengah secara horizontal */
+}
+
+/* end detail produk */
+
+/* footer start */
+.footer {
+    background-color: #282626;
+    height: 240px;
+}
+.footer h3 {
+    text-align: center;
+}
+.logo-perusahaan img {
+    width: 250px;
+    height: 250px;
+}
+.footer-down {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.judul h3 {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+/* end footer */
